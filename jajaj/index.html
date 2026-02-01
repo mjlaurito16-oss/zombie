@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PC FPS - Realistic Grass</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.module.js"
+            }
+        }
+    </script>
+</head>
+<body>
+
+    <div id="game-wrapper">
+        <div id="game-canvas"></div>
+        
+        <div id="ui-layer">
+            <div id="crosshair"></div>
+            <div id="blocker">
+                <div id="instructions">
+                    <span style="font-size:36px">CLICK TO PLAY</span>
+                    <br /><br />
+                    Move: WASD<br/>
+                    Jump: SPACE<br/>
+                    Look: MOUSE
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="main.js"></script>
+
+</body>
+</html>
